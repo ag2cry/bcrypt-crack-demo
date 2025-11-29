@@ -1,18 +1,24 @@
 # README
 
-**Docker イメージのビルド**
+## 🚫🚫🚫 Disclaimer 🚫🚫🚫
+
+Use of this code on unauthorized systems is strictly prohibited.
+
+## 📖 How to Use
+
+### 🔧 Docker イメージのビルド
 
 ```bash
 docker build -t bcrypt-crack-demo .
 ```
 
-**Docker コンテナの実行**
+### 🚀 **Docker コンテナの実行**
 
 ```bash
 docker run --rm bcrypt-crack-demo python crack_demo.py 12 5
 ```
 
-**実行結果サンプル**
+### 🎉 **実行結果サンプル**
 
 ```
 $ docker run --rm bcrypt-crack-demo python crack_demo.py 12 5
